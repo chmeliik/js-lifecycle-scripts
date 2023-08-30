@@ -14,12 +14,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {\
         "name": "js-lifecycle-scripts",\
         "reference": "workspace:."\
+      },\
+      {\
+        "name": "my-workspace",\
+        "reference": "workspace:my-workspace"\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["js-lifecycle-scripts", ["workspace:."]]\
+      ["js-lifecycle-scripts", ["workspace:."]],\
+      ["my-workspace", ["workspace:my-workspace"]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -47,6 +52,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["js-lifecycle-scripts", "workspace:."],\
+            ["fecha", "npm:4.2.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["my-workspace", [\
+        ["workspace:my-workspace", {\
+          "packageLocation": "./my-workspace/",\
+          "packageDependencies": [\
+            ["my-workspace", "workspace:my-workspace"],\
             ["fecha", "npm:4.2.3"]\
           ],\
           "linkType": "SOFT"\

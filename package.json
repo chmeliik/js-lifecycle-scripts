@@ -1,5 +1,6 @@
 {
   "name": "js-lifecycle-scripts",
+  "private": true,
   "packageManager": "yarn@3.6.3",
   "scripts": {
     "install": "mkdir -p /tmp/js-lifecycle/yarnberry && touch /tmp/js-lifecycle/yarnberry/install.txt",
@@ -42,5 +43,8 @@
   },
   "dependencies": {
     "fecha": "4.2.3"
-  }
+  },
+  "workspaces": [
+    "my-workspace"
+  ]
 }

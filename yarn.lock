@@ -19,3 +19,11 @@ __metadata:
     fecha: 4.2.3
   languageName: unknown
   linkType: soft
+
+"my-workspace@workspace:my-workspace":
+  version: 0.0.0-use.local
+  resolution: "my-workspace@workspace:my-workspace"
+  dependencies:
+    fecha: 4.2.3
+  languageName: unknown
+  linkType: soft
