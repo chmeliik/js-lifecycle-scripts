@@ -2,11 +2,13 @@
 set -o errexit -o nounset -o pipefail
 
 if [[ -n "${1:-}" ]]; then
-    pwn_me_in_dir=$1
+    identifier=$1
 else
     git_branch=$(git rev-parse --abbrev-ref HEAD)
-    pwn_me_in_dir=/tmp/${git_branch}-js-lifecycle
+    identifier=$git_branch
 fi
+
+pwn_me_in_dir=/tmp/js-lifecycle/$identifier
 
 jq < package.json --arg mydir "$pwn_me_in_dir" '
     .scripts = .scripts + {
