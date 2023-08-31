@@ -1,0 +1,15 @@
+{
+  "name": "js-lifecycle-scripts",
+  "version": "1.0.0",
+  "description": "Testing which lifecycle scripts are relevant for the `install` and `pack` commands of various JavaScript package managers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-lifecycle-scripts": "github:chmeliik/js-lifecycle-scripts#npm"
+  }
+}
