@@ -1,9 +1,11 @@
 npm:
 dependencies
 install
+postdependencies
 postinstall
 postpack
 postprepare
+predependencies
 preinstall
 prepack
 prepare
