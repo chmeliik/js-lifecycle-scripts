@@ -3,13 +3,13 @@ clean:
 	-git clean -dfX
 
 install-git-deps:
-	yarn add \
+	yarn add --mode=skip-build \
 		"npm-lifecycle-scripts@chmeliik/js-lifecycle-scripts#head=npm" \
 		"yarn-lifecycle-scripts@chmeliik/js-lifecycle-scripts#head=yarn" \
 		"yarnberry-lifecycle-scripts@chmeliik/js-lifecycle-scripts#head=yarnberry"
 
 install-git-dep-workspaces:
-	yarn add \
+	yarn add --mode=skip-build \
 		"npm-lifecycle-scripts@chmeliik/js-lifecycle-scripts#head=npm&workspace=my-workspace" \
 		"yarn-lifecycle-scripts@chmeliik/js-lifecycle-scripts#head=yarn&workspace=my-workspace" \
 		"yarnberry-lifecycle-scripts@chmeliik/js-lifecycle-scripts#head=yarnberry&workspace=my-workspace"
