@@ -22,6 +22,8 @@ DOCUMENTED_SCRIPTS = [
     "dependencies",
 ]
 
+UNDOCUMENTED_SCRIPTS = ["build"]
+
 
 def get_all_variants(base_scripts: list[str]) -> list[str]:
     def get_variants(script_name: str) -> Iterator[str]:
@@ -76,7 +78,7 @@ def main() -> None:
     scriptdir = Path("/tmp", "js-lifecycle", name).as_posix()
     scripts = {
         script: f"mkdir -p {scriptdir} && touch {scriptdir}/{script}.txt"
-        for script in get_all_variants(DOCUMENTED_SCRIPTS)
+        for script in get_all_variants(DOCUMENTED_SCRIPTS + UNDOCUMENTED_SCRIPTS)
     }
 
     if args.in_place:
