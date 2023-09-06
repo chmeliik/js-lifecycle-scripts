@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@acmiel-testing/js-lifecycle-scripts@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@acmiel-testing/js-lifecycle-scripts/-/js-lifecycle-scripts-1.0.0.tgz#40f99bd451334124d4dfd3a40a27ad65ef3c4efc"
+  integrity sha512-NFVaN3/2MDQPxPVDUDauCwHT/K0xE4GvjFBkWlbk5qHDe9+6Gobz1ApE7oZCkXt99PVkM1E6aehOK7RrlS529Q==
+  dependencies:
+    fecha "4.2.3"
+
 fecha@4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/fecha/-/fecha-4.2.3.tgz#4d9ccdbc61e8629b259fdca67e65891448d569fd"

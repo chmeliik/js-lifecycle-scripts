@@ -45,6 +45,7 @@
     "postbuild": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/postbuild.txt"
   },
   "dependencies": {
+    "@acmiel-testing/js-lifecycle-scripts": "^1.0.0",
     "fecha": "4.2.3"
   },
   "workspaces": [
