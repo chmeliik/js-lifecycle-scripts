@@ -23,7 +23,6 @@
     "postpublishOnly": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/postpublishOnly.txt",
     "preprepublishOnly": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/preprepublishOnly.txt",
     "postprepublishOnly": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/postprepublishOnly.txt",
-    "prepare": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/prepare.txt",
     "preprepare": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/preprepare.txt",
     "postprepare": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/postprepare.txt",
     "prepreprepare": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/prepreprepare.txt",
