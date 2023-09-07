@@ -6,9 +6,6 @@
   "author": "Adam Cmiel <acmiel@redhat.com>",
   "license": "MIT",
   "scripts": {
-    "install": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/install.txt",
-    "preinstall": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/preinstall.txt",
-    "postinstall": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/postinstall.txt",
     "prepreinstall": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/prepreinstall.txt",
     "postpreinstall": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/postpreinstall.txt",
     "prepostinstall": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/prepostinstall.txt",
@@ -30,7 +27,6 @@
     "prepostprepare": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/prepostprepare.txt",
     "postpostprepare": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/postpostprepare.txt",
     "pack": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/pack.txt",
-    "prepack": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/prepack.txt",
     "postpack": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/postpack.txt",
     "preprepack": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/preprepack.txt",
     "postprepack": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/postprepack.txt",
