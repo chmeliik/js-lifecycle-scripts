@@ -35,7 +35,6 @@
     "dependencies": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/dependencies.txt",
     "predependencies": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/predependencies.txt",
     "postdependencies": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/postdependencies.txt",
-    "build": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/build.txt",
     "prebuild": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/prebuild.txt",
     "postbuild": "mkdir -p /tmp/js-lifecycle/yarn && touch /tmp/js-lifecycle/yarn/postbuild.txt"
   },
